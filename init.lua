@@ -2,8 +2,8 @@
 
 vim.g.mapleader = " "
 vim.cmd('colorscheme slate')
-vim.g.stl  = "| %F %m  %=  [%H|%R] [%l;%c] [%p%%] |"
 vim.g.cb   = 'unnamedplus'
+vim.o.stl  = "| %F %m  %=  [%H|%R] [%l;%c] [%p%%] |"
 vim.o.nu   = true
 
 vim.o.so   = 10
