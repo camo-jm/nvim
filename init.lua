@@ -19,9 +19,8 @@ vim.o.wrap = false
 vim.o.tgc  = true
 
 vim.keymap.set("n", "<leader>t", ":25Lex\n")
-vim.g.netrw_banner = 1
-vim.g.netrw_sort_sequence = [[[\/]$,*]]
 vim.g.netrw_sizestyle = "H"
-vim.g.netrw_hide = 1
-vim.g.netrw_keepdir = 0
+vim.g.netrw_hide = 0
+vim.g.netrw_banner = 0
 vim.g.netrw_liststyle = 3
+
